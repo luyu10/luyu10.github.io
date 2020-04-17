@@ -1,15 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-04-16T14:28:49.104Z</updated>
+    <title>LY</title>
+    <updated>2020-04-17T06:49:27.960Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
     <subtitle>每天坚持前进30公里</subtitle>
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[快手_数据分析实习生面试]]></title>
+        <id>https://luyu10.github.io/post/kuai-shou-_-shu-ju-fen-xi-shi-xi-sheng-mian-shi/</id>
+        <link href="https://luyu10.github.io/post/kuai-shou-_-shu-ju-fen-xi-shi-xi-sheng-mian-shi/">
+        </link>
+        <updated>2020-04-17T04:46:22.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="方式">方式</h1>
+<p>牛客网视频面试，可以在线编程</p>
+<h1 id="流程">流程</h1>
+<ol>
+<li>上来自我介绍</li>
+<li>面试官直接问在美团的实习数据是否是自己取的，Sql难度怎么样</li>
+<li>直接甩Sql题目</li>
+<li>没写出来，直接挂😪</li>
+</ol>
+<h1 id="题目">题目</h1>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587099052901.PNG" alt="" loading="lazy"></figure>
+<h2 id="思路">思路</h2>
+<ol>
+<li>限制user_id为多单用户的</li>
+<li>取出每个用户每天最早的订单id，金额</li>
+</ol>
+<h2 id="代码">代码</h2>
+<pre><code>select order_id,order_amt
+from
+(select user_ id,dt,count(*) as num  
+from table_A 
+where dt between 20200409 and 20200415 
+group by 1,2 
+having num&gt;1) a
+left join 
+(select user_id,dt,order_id,min(order_time),order_amt
+from table_A
+group by 1,2) b
+a.user_id=b.user_id and a.dt=b.dt
+</code></pre>
+<p>开窗函数</p>
+<pre><code>select order_id,order_amt
+from
+(select order_id,order_amt,row_number() over(partition by user_id,dt ,order by order_time) order_rank
+from table_A
+where dt between 20200409 and 20200415 and order_rank=1)
+</code></pre>
+<h1 id="反思">反思</h1>
+<ol>
+<li>视频面试要克服紧张</li>
+<li>写sql的时候不要慌，先理清思路再下手</li>
+<li>group by 函数到底是干啥的要清楚，分组用的；遇到一个“每”都要想到分组，比如每个用户每天就要group by user_id,dt</li>
+<li>开窗函数要学会用，在原表上就能进行各种排名</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[实用技巧]]></title>
         <id>https://luyu10.github.io/post/shi-yong-ji-qiao/</id>
@@ -51,34 +103,34 @@
 <figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587031408111.jpg" alt="" loading="lazy"></figure>
 <h3 id="汤家凤基础视频">汤家凤基础视频</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6189338"><label class="task-list-item-label" for="task-item-6189338"> 1️⃣ 极限与连续</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1264575"><label class="task-list-item-label" for="task-item-1264575"> 1️⃣ 极限与连续</label>
 <ol>
 <li>函数</li>
 <li>极限</li>
 <li>连续与间断</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1050179"><label class="task-list-item-label" for="task-item-1050179"> 2️⃣ 导数与微分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7145711"><label class="task-list-item-label" for="task-item-7145711"> 2️⃣ 导数与微分</label>
 <ol>
 <li>导数与微分的基本概念</li>
 <li>求导公式与法则</li>
 <li>隐函数与参数方程确定的函数的求导</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-665035"><label class="task-list-item-label" for="task-item-665035"> 3️⃣ 一元函数微分学的应用</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-207108"><label class="task-list-item-label" for="task-item-207108"> 3️⃣ 一元函数微分学的应用</label>
 <ol>
 <li>中值定理</li>
 <li>单调性与极值、凹凸性与拐点、函数作图</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8998871"><label class="task-list-item-label" for="task-item-8998871"> 4️⃣不定积分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2605178"><label class="task-list-item-label" for="task-item-2605178"> 4️⃣不定积分</label>
 <ol>
 <li>不定积分的概念与基本性质</li>
 <li>不定积分基本公式与积分法</li>
 <li>两类重要函数的不定积分：有理函数与三角有理函数</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6686432"><label class="task-list-item-label" for="task-item-6686432"> 5️⃣ 定积分及其应用</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8155135"><label class="task-list-item-label" for="task-item-8155135"> 5️⃣ 定积分及其应用</label>
 <ol>
 <li>定积分的概念与基本性质</li>
 <li>基本理论</li>
@@ -86,14 +138,14 @@
 <li>定积分的应用</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6140619"><label class="task-list-item-label" for="task-item-6140619"> 6️⃣ 多元函数微分学</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-693500"><label class="task-list-item-label" for="task-item-693500"> 6️⃣ 多元函数微分学</label>
 <ol>
 <li>多元函数微分学的基本概念</li>
 <li>多元函数基本理论</li>
 <li>多元函数微分学的应用</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8783955"><label class="task-list-item-label" for="task-item-8783955"> 7️⃣ 微分方程</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4800541"><label class="task-list-item-label" for="task-item-4800541"> 7️⃣ 微分方程</label>
 <ol>
 <li>微分方程的基本概念</li>
 <li>一阶微分方程的种类及解法</li>
@@ -101,7 +153,7 @@
 <li>高阶微分方程</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6819174"><label class="task-list-item-label" for="task-item-6819174"> 8️⃣ 重积分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9370362"><label class="task-list-item-label" for="task-item-9370362"> 8️⃣ 重积分</label>
 <ol>
 <li>二重积分<br>
 ✔️✔️✔️<strong>4.13完</strong>👆👆👆</li>

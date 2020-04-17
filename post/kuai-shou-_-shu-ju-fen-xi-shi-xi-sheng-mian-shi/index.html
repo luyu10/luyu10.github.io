@@ -2,26 +2,30 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | LY</title>
+<title>快手_数据分析实习生面试 | LY</title>
 <link rel="shortcut icon" href="https://luyu10.github.io/favicon.ico?v=1587106165147">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://luyu10.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | LY - Atom Feed" href="https://luyu10.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="快手_数据分析实习生面试 | LY - Atom Feed" href="https://luyu10.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+    <meta name="description" content="方式
+牛客网视频面试，可以在线编程
+流程
 
-🏠 关于本站
-记录自己二十多岁成长的点滴
-👨‍💻 博主是谁
-大连某海事大学在读
-⛹ 兴趣爱好
-🏀🏀🏀
-📬 联系我呀
-..." />
+上来自我介绍
+面试官直接问在美团的实习数据是否是自己取的，Sql难度怎么样
+直接甩Sql题目
+没写出来，直接挂😪
+
+题目
+
+思路
+
+限制user_id为多单用户的
+取出每个用户每天最早的订单id..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -84,42 +88,77 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              快手_数据分析实习生面试
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-04-17
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>记录自己二十多岁成长的点滴</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>大连某海事大学在读</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>🏀🏀🏀</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                <h1 id="方式">方式</h1>
+<p>牛客网视频面试，可以在线编程</p>
+<h1 id="流程">流程</h1>
+<ol>
+<li>上来自我介绍</li>
+<li>面试官直接问在美团的实习数据是否是自己取的，Sql难度怎么样</li>
+<li>直接甩Sql题目</li>
+<li>没写出来，直接挂😪</li>
+</ol>
+<h1 id="题目">题目</h1>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587099052901.PNG" alt="" loading="lazy"></figure>
+<h2 id="思路">思路</h2>
+<ol>
+<li>限制user_id为多单用户的</li>
+<li>取出每个用户每天最早的订单id，金额</li>
+</ol>
+<h2 id="代码">代码</h2>
+<pre><code>select order_id,order_amt
+from
+(select user_ id,dt,count(*) as num  
+from table_A 
+where dt between 20200409 and 20200415 
+group by 1,2 
+having num&gt;1) a
+left join 
+(select user_id,dt,order_id,min(order_time),order_amt
+from table_A
+group by 1,2) b
+a.user_id=b.user_id and a.dt=b.dt
+</code></pre>
+<p>开窗函数</p>
+<pre><code>select order_id,order_amt
+from
+(select order_id,order_amt,row_number() over(partition by user_id,dt ,order by order_time) order_rank
+from table_A
+where dt between 20200409 and 20200415 and order_rank=1)
+</code></pre>
+<h1 id="反思">反思</h1>
+<ol>
+<li>视频面试要克服紧张</li>
+<li>写sql的时候不要慌，先理清思路再下手</li>
+<li>group by 函数到底是干啥的要清楚，分组用的；遇到一个“每”都要想到分组，比如每个用户每天就要group by user_id,dt</li>
+<li>开窗函数要学会用，在原表上就能进行各种排名</li>
+</ol>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li>
+<li><a href="#%E6%96%B9%E5%BC%8F">方式</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B">流程</a></li>
+<li><a href="#%E9%A2%98%E7%9B%AE">题目</a>
 <ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+<li><a href="#%E6%80%9D%E8%B7%AF">思路</a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
 </ul>
 </li>
+<li><a href="#%E5%8F%8D%E6%80%9D">反思</a></li>
 </ul>
 
               </div>
@@ -127,6 +166,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://luyu10.github.io/post/shi-yong-ji-qiao/">
+              <h3 class="post-title">
+                实用技巧
+              </h3>
+            </a>
+          </div>
         
 
         
