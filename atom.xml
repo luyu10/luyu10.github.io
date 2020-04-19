@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-04-18T12:11:26.865Z</updated>
+    <updated>2020-04-19T05:32:32.879Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -114,34 +114,34 @@ where dt between 20200409 and 20200415 and order_rank=1)
 <figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587031408111.jpg" alt="" loading="lazy"></figure>
 <h3 id="汤家凤基础视频">汤家凤基础视频</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8231648"><label class="task-list-item-label" for="task-item-8231648"> 1️⃣ 极限与连续</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2540846"><label class="task-list-item-label" for="task-item-2540846"> 1️⃣ 极限与连续</label>
 <ol>
 <li>函数</li>
 <li>极限</li>
 <li>连续与间断</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8849094"><label class="task-list-item-label" for="task-item-8849094"> 2️⃣ 导数与微分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7024323"><label class="task-list-item-label" for="task-item-7024323"> 2️⃣ 导数与微分</label>
 <ol>
 <li>导数与微分的基本概念</li>
 <li>求导公式与法则</li>
 <li>隐函数与参数方程确定的函数的求导</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7764476"><label class="task-list-item-label" for="task-item-7764476"> 3️⃣ 一元函数微分学的应用</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2189078"><label class="task-list-item-label" for="task-item-2189078"> 3️⃣ 一元函数微分学的应用</label>
 <ol>
 <li>中值定理</li>
 <li>单调性与极值、凹凸性与拐点、函数作图</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3017206"><label class="task-list-item-label" for="task-item-3017206"> 4️⃣不定积分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1851115"><label class="task-list-item-label" for="task-item-1851115"> 4️⃣不定积分</label>
 <ol>
 <li>不定积分的概念与基本性质</li>
 <li>不定积分基本公式与积分法</li>
 <li>两类重要函数的不定积分：有理函数与三角有理函数</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2913256"><label class="task-list-item-label" for="task-item-2913256"> 5️⃣ 定积分及其应用</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6810860"><label class="task-list-item-label" for="task-item-6810860"> 5️⃣ 定积分及其应用</label>
 <ol>
 <li>定积分的概念与基本性质</li>
 <li>基本理论</li>
@@ -149,14 +149,14 @@ where dt between 20200409 and 20200415 and order_rank=1)
 <li>定积分的应用</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6392777"><label class="task-list-item-label" for="task-item-6392777"> 6️⃣ 多元函数微分学</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1603166"><label class="task-list-item-label" for="task-item-1603166"> 6️⃣ 多元函数微分学</label>
 <ol>
 <li>多元函数微分学的基本概念</li>
 <li>多元函数基本理论</li>
 <li>多元函数微分学的应用</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5518472"><label class="task-list-item-label" for="task-item-5518472"> 7️⃣ 微分方程</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4210673"><label class="task-list-item-label" for="task-item-4210673"> 7️⃣ 微分方程</label>
 <ol>
 <li>微分方程的基本概念</li>
 <li>一阶微分方程的种类及解法</li>
@@ -164,7 +164,7 @@ where dt between 20200409 and 20200415 and order_rank=1)
 <li>高阶微分方程</li>
 </ol>
 </li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1643443"><label class="task-list-item-label" for="task-item-1643443"> 8️⃣ 重积分</label>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8583275"><label class="task-list-item-label" for="task-item-8583275"> 8️⃣ 重积分</label>
 <ol>
 <li>二重积分<br>
 ✔️✔️✔️<strong>4.13done</strong>👆👆👆</li>
