@@ -2,18 +2,28 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>实用技巧 | LY</title>
+<title>SQL | LY</title>
 <link rel="shortcut icon" href="https://luyu10.github.io/favicon.ico?v=1589075148943">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://luyu10.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="实用技巧 | LY - Atom Feed" href="https://luyu10.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="SQL | LY - Atom Feed" href="https://luyu10.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="百度网盘网页版倍速方法
-在控制台输入：
-videojs.getPlayers(&quot;video-player&quot;).html5player.tech_.setPlaybackRate(1.5)
+    <meta name="description" content="SELECT FROM
+
+DISTINCT 去重
+CASE WHEN END 给数据分组打标签
+窗口函数
+
+WHERE
+
+&lt;=&gt; between
+(not)in
+and or(and优先于or执行)
+like（%匹配字符%）
+
 ..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -77,28 +87,122 @@ videojs.getPlayers(&quot;video-player&quot;).html5player.tech_.setPlaybackRate(1
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              实用技巧
+              SQL
             </h2>
             <div class="post-info">
               <span>
-                2020-04-16
+                2020-05-10
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h1 id="百度网盘网页版倍速方法">百度网盘网页版倍速方法</h1>
-<p>在控制台输入：<br>
-<code>videojs.getPlayers(&quot;video-player&quot;).html5player.tech_.setPlaybackRate(1.5)</code></p>
+                <h1 id="select-from">SELECT FROM</h1>
+<ul>
+<li>DISTINCT 去重</li>
+<li>CASE WHEN END 给数据分组打标签</li>
+<li>窗口函数</li>
+</ul>
+<h1 id="where">WHERE</h1>
+<ul>
+<li>&lt;=&gt; between</li>
+<li>(not)in</li>
+<li>and or(and优先于or执行)</li>
+<li>like（%匹配字符%）</li>
+</ul>
+<h1 id="order-by">ORDER BY</h1>
+<ul>
+<li>默认升序ASC</li>
+<li>降序关键字DESC</li>
+</ul>
+<h1 id="group-by">GROUP BY</h1>
+<ul>
+<li>聚合函数
+<ul>
+<li>COUNT()</li>
+<li>SUM()</li>
+<li>AVG()</li>
+<li>MAX()</li>
+<li>MIN()</li>
+</ul>
+</li>
+<li>分组前过滤用WHERE，分组后过滤用HAVING</li>
+</ul>
+<h1 id="函数">函数</h1>
+<h2 id="字符串">字符串</h2>
+<ul>
+<li>LEFT()</li>
+<li>LOCATE()</li>
+<li>LENGTH()</li>
+<li>SUBSTR()</li>
+</ul>
+<h2 id="时间">时间</h2>
+<ul>
+<li>DATEDIFF()</li>
+<li>DATE_SUB()</li>
+<li>DATEFORMATE()</li>
+</ul>
+<h1 id="row_number-over-partition-by-order-by">ROW_NUMBER() OVER (PARTITION BY   ORDER BY   )</h1>
+<h2 id="目的">目的</h2>
+<p>分组后返回多行，可进行组内排序等操作</p>
+<h2 id="窗口函数">窗口函数</h2>
+<h3 id="聚合函数">聚合函数</h3>
+<p>SUM();COUNT();AVG();MIN();MAX()<br>
+默认聚合第一行到当前行累计的值<br>
+对ROWS操作：</p>
+<ul>
+<li>n PRECEDING 向前n行</li>
+<li>n FOLLOWING 向后n行</li>
+<li>CURRENT ROW 当前行<br>
+<img src="https://luyu10.github.io/post-images/1589074741044.PNG" alt="" loading="lazy"></li>
+</ul>
+<h3 id="组内排名">组内排名</h3>
+<ul>
+<li>ROW_NUMBER() 忽略重复值</li>
+<li>RANK() 重复值累计</li>
+<li>DENSE_RANK() 重复值不累计</li>
+</ul>
+<h3 id="返回组内某一行的值">返回组内某一行的值</h3>
+<ul>
+<li>FIRST_VALUE()<br>
+返回窗口内第一行的值</li>
+<li>LAST_VALUE()<br>
+返回窗口内最后一行的值</li>
+<li>LAG(A,n,null)<br>
+返回A列当前行之前第n行的值，若不存在则返回null</li>
+<li>LEAD(A,n,null)<br>
+返回A列当前行之后的第n行的值，若不存在则返回null</li>
+</ul>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
-<li><a href="#%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%BD%91%E9%A1%B5%E7%89%88%E5%80%8D%E9%80%9F%E6%96%B9%E6%B3%95">百度网盘网页版倍速方法</a></li>
+<li><a href="#select-from">SELECT FROM</a></li>
+<li><a href="#where">WHERE</a></li>
+<li><a href="#order-by">ORDER BY</a></li>
+<li><a href="#group-by">GROUP BY</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0">函数</a>
+<ul>
+<li><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2">字符串</a></li>
+<li><a href="#%E6%97%B6%E9%97%B4">时间</a></li>
+</ul>
+</li>
+<li><a href="#row_number-over-partition-by-order-by">ROW_NUMBER() OVER (PARTITION BY   ORDER BY   )</a>
+<ul>
+<li><a href="#%E7%9B%AE%E7%9A%84">目的</a></li>
+<li><a href="#%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0">窗口函数</a>
+<ul>
+<li><a href="#%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0">聚合函数</a></li>
+<li><a href="#%E7%BB%84%E5%86%85%E6%8E%92%E5%90%8D">组内排名</a></li>
+<li><a href="#%E8%BF%94%E5%9B%9E%E7%BB%84%E5%86%85%E6%9F%90%E4%B8%80%E8%A1%8C%E7%9A%84%E5%80%BC">返回组内某一行的值</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
               </div>
@@ -109,9 +213,9 @@ videojs.getPlayers(&quot;video-player&quot;).html5player.tech_.setPlaybackRate(1
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://luyu10.github.io/post/fu-pan/">
+            <a href="https://luyu10.github.io/post/jian-li-jie-shao-_-shu-ju-fen-xi/">
               <h3 class="post-title">
-                复盘
+                简历介绍_数据分析
               </h3>
             </a>
           </div>
