@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-05-10T01:45:55.173Z</updated>
+    <updated>2020-05-10T02:58:10.012Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[贝壳_数据分析暑期实习一面]]></title>
+        <id>https://luyu10.github.io/post/bei-ke-_-shu-ju-fen-xi-shu-qi-shi-xi-yi-mian/</id>
+        <link href="https://luyu10.github.io/post/bei-ke-_-shu-ju-fen-xi-shu-qi-shi-xi-yi-mian/">
+        </link>
+        <updated>2020-05-10T01:46:11.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="简历相关">简历相关</h1>
+<h2 id="美团实习">美团实习</h2>
+<h3 id="构建的关于用户生命周期运营指标中选出top3指标">构建的关于用户生命周期运营指标中，选出TOP3指标</h3>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589076369485.PNG" alt="" loading="lazy"></figure>
+<ul>
+<li>人均支付间夜</li>
+<li>新增用户数</li>
+<li>留存用户数</li>
+</ul>
+<h3 id="出用户特征分析的结论是什么运营人员如何使用结论是否跟进了">出用户特征分析的结论是什么？运营人员如何使用结论？是否跟进了？</h3>
+<p>结论及使用</p>
+<ul>
+<li>基础属性分布情况
+<ol>
+<li>活跃用户：高频及以下主要为学生、年轻用户、低收入人群，出行场景主要为情侣、亲子，优惠敏感度高；超高频主要为白领、30岁以上、高收入人群，出行场景主要为出差，优惠敏感度低</li>
+<li>新人&amp;流失用户：30岁以上人群、中低收入人群、女性、无职业标签，出行场景为朋友、情侣、亲子</li>
+</ol>
+</li>
+<li>行为特征N转N+1<br>
+学生群体的转化情况最好，活跃用户比例最高，下次支付转化周期最长，可放缓学生群体的粗活周期；<br>
+学生浏览后下单的时间最短，浏览后要尽快促活</li>
+<li>流失召回<br>
+召回比例中，高频用户召回比例最高，优先召回高频用户</li>
+</ul>
+<h3 id="实习中遇到的困难是什么你又是如何克服的">实习中遇到的困难是什么?你又是如何克服的？</h3>
+<ul>
+<li>困难<br>
+刚开始没有部分数据权限，各种表的字段含义也不清楚，sql写不出来</li>
+<li>克服方法<br>
+一点一点的问，沟通，然后做笔记，才把一些指标搞清楚，写出sql</li>
+</ul>
+<h2 id="滴滴项目">滴滴项目</h2>
+<ol>
+<li>这个项目是在实习的时候做的吗<br>
+不是，是在一个集训营做的，类似于网上的产品实训课程，不过是滴滴的产品经历带着做的，最终也经过了评审</li>
+</ol>
+<h1 id="简历之外">简历之外</h1>
+<ol>
+<li>如果你的朋友用两个词评价你，会是哪两个词？</li>
+<li>自己的职业规划？</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SQL]]></title>
         <id>https://luyu10.github.io/post/sql/</id>
@@ -313,57 +362,57 @@ SQL 50题https://www.bilibili.com/video/av55971363?from=search&amp;seid=21697573
         <content type="html"><![CDATA[<h1 id="四月">四月</h1>
 <h2 id="20">20</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8207205"><label class="task-list-item-label" for="task-item-8207205"> 看了一节武忠祥的高数基础课程（极限计算）</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1677358"><label class="task-list-item-label" for="task-item-1677358"> 安卓期末考试</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7772898"><label class="task-list-item-label" for="task-item-7772898"> 英语单词70+35</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3643485"><label class="task-list-item-label" for="task-item-3643485"> 看了一节武忠祥的高数基础课程（极限计算）</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3352446"><label class="task-list-item-label" for="task-item-3352446"> 安卓期末考试</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-519665"><label class="task-list-item-label" for="task-item-519665"> 英语单词70+35</label></li>
 </ul>
 <p>今天又是在考研和工作迷茫中的一天，无论选择哪一条路，都是需要持续奋斗的；不能为了逃避这一件事而去选择另一件事，Just do it！世事变化无常，向上是唯一方向~</p>
 <h2 id="21">21</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8884663"><label class="task-list-item-label" for="task-item-8884663"> 1800题第一章29-86题</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9159718"><label class="task-list-item-label" for="task-item-9159718"> 英语真题阅读一个</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2579124"><label class="task-list-item-label" for="task-item-2579124"> 武忠祥高数基础课程一节</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1553279"><label class="task-list-item-label" for="task-item-1553279"> 英语单词70+35</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8213617"><label class="task-list-item-label" for="task-item-8213617"> 1800题第一章29-86题</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-194010"><label class="task-list-item-label" for="task-item-194010"> 英语真题阅读一个</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1563369"><label class="task-list-item-label" for="task-item-1563369"> 武忠祥高数基础课程一节</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3132185"><label class="task-list-item-label" for="task-item-3132185"> 英语单词70+35</label></li>
 </ul>
 <p>下午的时间利用率比较低</p>
 <h2 id="22">22</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5534883"><label class="task-list-item-label" for="task-item-5534883"> 1800题第一章87-130题</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1154861"><label class="task-list-item-label" for="task-item-1154861"> 英语真题阅读一个</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4545973"><label class="task-list-item-label" for="task-item-4545973"> 武忠祥高数基础课程一节</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4415359"><label class="task-list-item-label" for="task-item-4415359"> 英语单词70+35</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2179789"><label class="task-list-item-label" for="task-item-2179789"> 1800题第一章87-130题</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1530124"><label class="task-list-item-label" for="task-item-1530124"> 英语真题阅读一个</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1132488"><label class="task-list-item-label" for="task-item-1132488"> 武忠祥高数基础课程一节</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3006541"><label class="task-list-item-label" for="task-item-3006541"> 英语单词70+35</label></li>
 </ul>
 <p>还是准备找实习了</p>
 <h2 id="23">23</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7550685"><label class="task-list-item-label" for="task-item-7550685"> 英语单词70+35</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6715551"><label class="task-list-item-label" for="task-item-6715551"> AndroidStudio安装成功</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6998487"><label class="task-list-item-label" for="task-item-6998487"> 英语单词70+35</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-366110"><label class="task-list-item-label" for="task-item-366110"> AndroidStudio安装成功</label></li>
 </ul>
 <h2 id="24">24</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2658237"><label class="task-list-item-label" for="task-item-2658237"> 分布式计算课后作业</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7930033"><label class="task-list-item-label" for="task-item-7930033"> 智能系统导论课后习题</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5530741"><label class="task-list-item-label" for="task-item-5530741"> 安卓用户界面实验</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3399692"><label class="task-list-item-label" for="task-item-3399692"> 英语单词37+70</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5973930"><label class="task-list-item-label" for="task-item-5973930"> 分布式计算课后作业</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-941464"><label class="task-list-item-label" for="task-item-941464"> 智能系统导论课后习题</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7229312"><label class="task-list-item-label" for="task-item-7229312"> 安卓用户界面实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6979264"><label class="task-list-item-label" for="task-item-6979264"> 英语单词37+70</label></li>
 </ul>
 <h2 id="28">28</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-370064"><label class="task-list-item-label" for="task-item-370064"> 简历投递</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9481290"><label class="task-list-item-label" for="task-item-9481290"> 行测数字逻辑题目归纳</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6934747"><label class="task-list-item-label" for="task-item-6934747"> 简历投递</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2868980"><label class="task-list-item-label" for="task-item-2868980"> 行测数字逻辑题目归纳</label></li>
 </ul>
 <h2 id="29">29</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7122804"><label class="task-list-item-label" for="task-item-7122804"> 数据仓库与数据挖掘大作业</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7013219"><label class="task-list-item-label" for="task-item-7013219"> 数据仓库与数据挖掘实验软件安装</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9135542"><label class="task-list-item-label" for="task-item-9135542"> 智能信息检索实验</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8513924"><label class="task-list-item-label" for="task-item-8513924"> 安卓第二个实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4906001"><label class="task-list-item-label" for="task-item-4906001"> 数据仓库与数据挖掘大作业</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6367010"><label class="task-list-item-label" for="task-item-6367010"> 数据仓库与数据挖掘实验软件安装</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3805217"><label class="task-list-item-label" for="task-item-3805217"> 智能信息检索实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8860898"><label class="task-list-item-label" for="task-item-8860898"> 安卓第二个实验</label></li>
 </ul>
 <h2 id="30">30</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8528178"><label class="task-list-item-label" for="task-item-8528178"> 数据仓库与数据挖掘大作业</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6206565"><label class="task-list-item-label" for="task-item-6206565"> 数据仓库与数据挖掘第一个实验</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8942300"><label class="task-list-item-label" for="task-item-8942300"> 智能信息检索实验</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-709845"><label class="task-list-item-label" for="task-item-709845"> 安卓第二个实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2195236"><label class="task-list-item-label" for="task-item-2195236"> 数据仓库与数据挖掘大作业</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-471613"><label class="task-list-item-label" for="task-item-471613"> 数据仓库与数据挖掘第一个实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7118099"><label class="task-list-item-label" for="task-item-7118099"> 智能信息检索实验</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-902342"><label class="task-list-item-label" for="task-item-902342"> 安卓第二个实验</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -376,58 +425,6 @@ SQL 50题https://www.bilibili.com/video/av55971363?from=search&amp;seid=21697573
         <content type="html"><![CDATA[<h1 id="圆肩驼背">圆肩驼背</h1>
 <h1 id="头前倾">头前倾</h1>
 <h1 id="膝超伸">膝超伸</h1>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[快手_数据分析实习生面试]]></title>
-        <id>https://luyu10.github.io/post/kuai-shou-_-shu-ju-fen-xi-shi-xi-sheng-mian-shi/</id>
-        <link href="https://luyu10.github.io/post/kuai-shou-_-shu-ju-fen-xi-shi-xi-sheng-mian-shi/">
-        </link>
-        <updated>2020-04-17T04:46:22.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="方式">方式</h1>
-<p>牛客网视频面试，可以在线编程</p>
-<h1 id="流程">流程</h1>
-<ol>
-<li>上来自我介绍</li>
-<li>面试官直接问在美团的实习数据是否是自己取的，Sql难度怎么样</li>
-<li>直接甩Sql题目</li>
-<li>没写出来，直接挂😪</li>
-</ol>
-<h1 id="题目">题目</h1>
-<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587099052901.PNG" alt="" loading="lazy"></figure>
-<h2 id="思路">思路</h2>
-<ol>
-<li>限制user_id为多单用户的</li>
-<li>取出每个用户每天最早的订单id，金额</li>
-</ol>
-<h2 id="代码">代码</h2>
-<pre><code>select order_id,order_amt
-from
-(select user_ id,dt,count(*) as num  
-from table_A 
-where dt between 20200409 and 20200415 
-group by 1,2 
-having num&gt;1) a
-left join 
-(select user_id,dt,order_id,min(order_time),order_amt
-from table_A
-group by 1,2) b
-a.user_id=b.user_id and a.dt=b.dt
-</code></pre>
-<p>开窗函数</p>
-<pre><code>select order_id,order_amt
-from
-(select order_id,order_amt,row_number() over(partition by user_id,dt ,order by order_time) order_rank
-from table_A
-where dt between 20200409 and 20200415 and order_rank=1)
-</code></pre>
-<h1 id="反思">反思</h1>
-<ol>
-<li>视频面试要克服紧张</li>
-<li>写sql的时候不要慌，先理清思路再下手</li>
-<li>group by 函数到底是干啥的要清楚，分组用的；遇到一个“每”都要想到分组，比如每个用户每天就要group by user_id,dt</li>
-<li>开窗函数要学会用，在原表上就能进行各种排名</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
