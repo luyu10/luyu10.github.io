@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-05-12T10:59:57.762Z</updated>
+    <updated>2020-05-12T14:28:59.432Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -78,7 +78,23 @@
         </link>
         <updated>2020-05-11T04:15:11.000Z</updated>
         <content type="html"><![CDATA[<h1 id="假设检验">假设检验</h1>
+<h2 id="假设检验的流程">假设检验的流程</h2>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589293031842.PNG" alt="" loading="lazy"></figure>
+<ol>
+<li>问题是什么<br>
+备择假设H1（你希望得到的结果）<br>
+原假设H0</li>
+<li>证据是什么<br>
+原假设成立的情况下计算P值</li>
+<li>判断标准是什么<br>
+显著水平α</li>
+<li>得出结论<br>
+P&lt;=α 小概率事件，拒绝原假设H0，备择假设H1成立<br>
+P&gt;α 接受原假设H0</li>
+</ol>
 <h1 id="abtesting">ABtesting</h1>
+<h2 id="ab流程">AB流程</h2>
+<figure data-type="image" tabindex="2"><img src="https://luyu10.github.io/post-images/1589293729694.PNG" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
