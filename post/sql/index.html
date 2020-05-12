@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>SQL | LY</title>
-<link rel="shortcut icon" href="https://luyu10.github.io/favicon.ico?v=1589168872399">
+<link rel="shortcut icon" href="https://luyu10.github.io/favicon.ico?v=1589257573679">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://luyu10.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="SQL | LY - Atom Feed" href="https://luyu10.github.io/atom.xml">
@@ -34,7 +34,7 @@ like（%匹配字符%）
       <div class="main-content">
         <div class="site-header">
   <a href="https://luyu10.github.io">
-  <img class="avatar" src="https://luyu10.github.io/images/avatar.png?v=1589168872399" alt="">
+  <img class="avatar" src="https://luyu10.github.io/images/avatar.png?v=1589257573679" alt="">
   </a>
   <h1 class="site-title">
     LY
@@ -169,14 +169,40 @@ like（%匹配字符%）
 </ul>
 <h3 id="返回组内某一行的值">返回组内某一行的值</h3>
 <ul>
-<li>FIRST_VALUE()<br>
-返回窗口内第一行的值</li>
-<li>LAST_VALUE()<br>
-返回窗口内最后一行的值</li>
-<li>LAG(A,n,null)<br>
-返回A列当前行之前第n行的值，若不存在则返回null</li>
-<li>LEAD(A,n,null)<br>
-返回A列当前行之后的第n行的值，若不存在则返回null</li>
+<li>
+<p>FIRST_VALUE()<br>
+返回窗口内第一行的值</p>
+</li>
+<li>
+<p>LAST_VALUE()<br>
+返回窗口内最后一行的值</p>
+</li>
+<li>
+<p>LAG(A,n,null)<br>
+返回A列当前行之前第n行的值，若不存在则返回null</p>
+</li>
+<li>
+<p>LEAD(A,n,null)<br>
+返回A列当前行之后的第n行的值，若不存在则返回null</p>
+<h1 id="sql执行顺序">SQL执行顺序</h1>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589255891655.jpg" alt="" loading="lazy"></figure>
+<ol>
+<li>FROM+JOIN<br>
+首先把表准备好</li>
+<li>WHERE<br>
+初步过滤</li>
+<li>GROUP BY<br>
+分组</li>
+<li>HAVING<br>
+分组后过滤</li>
+<li>SELECT<br>
+把要查的内容找到</li>
+<li>ORDER BY<br>
+按顺序排列已查到内容</li>
+<li>LIMIT<br>
+截取需要的内容</li>
+</ol>
+</li>
 </ul>
 
               </div>
@@ -204,6 +230,7 @@ like（%匹配字符%）
 </li>
 </ul>
 </li>
+<li><a href="#sql%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F">SQL执行顺序</a></li>
 </ul>
 
               </div>
