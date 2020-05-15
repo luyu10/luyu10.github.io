@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-05-12T14:28:59.432Z</updated>
+    <updated>2020-05-15T06:12:12.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[面经收集_数据分析]]></title>
+        <id>https://luyu10.github.io/post/mian-jing-ji-he-_-shu-ju-fen-xi/</id>
+        <link href="https://luyu10.github.io/post/mian-jing-ji-he-_-shu-ju-fen-xi/">
+        </link>
+        <updated>2020-05-14T00:57:19.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="职位相关">职位相关</h1>
+<h2 id="美团实习中学到了什么">美团实习中学到了什么？</h2>
+<ul>
+<li>分析方法与工具<br>
+对比分析，框架分析；对sql和excel等一些工具更加熟练</li>
+<li>业务理解<br>
+了解漏斗模型，一些指标以及业务流程</li>
+<li>软实力<br>
+业务沟通能力有所提高，学会在思考之后再提问<br>
+结构式的输出以及表达；《金字塔原理》<br>
+长期有耐心，每天前进30公里的价值观</li>
+</ul>
+<h2 id="如何看待数据分析师这个职位">如何看待数据分析师这个职位？</h2>
+<p>是一个对业务方提供数据分析建议，帮助他们更好地决策的一个角色；需要掌握基本的数据分析方法，数据分析工具，但是一切的分析都要以业务理解为基础，这也是我在美团实习的时候认识到的；</p>
+<h2 id="为什么想要做数据分析">为什么想要做数据分析？</h2>
+<ul>
+<li>首先看大环境趋势：随着5G，区块链的出现，数据量会增加的更快，海量的数据可以被挖掘出无限价值，同样会驱动业务发展，数据行业会随之迎来发展；</li>
+<li>然后是我个人，我的专业也是和数据相关，本身就会学习一些数据分析的工具</li>
+</ul>
+<h1 id="职位无关">职位无关</h1>
+<h2 id="你的缺点是">你的缺点是？</h2>
+<ul>
+<li>本科211，学历相比于其他同学不够高，所以我只能在能力方面来提高自己，提高自己的竞争力</li>
+<li>虽然做过BA相关的实习，但是业务理解还是有欠缺，还是需要早工作中提升</li>
+</ul>
+<h2 id="你的优点是">你的优点是？</h2>
+<ul>
+<li>有过相关的实习，对于业务和技能有所了解与提升，能够更快的适应互联网的快节奏以及新的工作内容</li>
+<li>性格比较好，可以很快和大家打成一片，便于之后的工作的进行</li>
+</ul>
+<h2 id="有什么问题想问我">有什么问题想问我？</h2>
+<ol>
+<li>所在的部门在组织架构中的地位，以及业务方</li>
+<li>想要成为更优秀的数据分析师，有没有偏业务以及方法论的书籍</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[快手_数据分析实习面试]]></title>
         <id>https://luyu10.github.io/post/kuai-shou-_-shu-ju-fen-xi-shi-xi-mian-shi/</id>
@@ -427,27 +470,6 @@ P&gt;α 接受原假设H0</li>
         </link>
         <updated>2020-04-24T04:39:09.000Z</updated>
         <content type="html"><![CDATA[<p>#如何提高自己的逻辑思维能力</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据分析]]></title>
-        <id>https://luyu10.github.io/post/shu-ju-fen-xi/</id>
-        <link href="https://luyu10.github.io/post/shu-ju-fen-xi/">
-        </link>
-        <updated>2020-04-24T04:22:26.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="需求分析">需求分析</h1>
-<h2 id="问题拆解">问题拆解</h2>
-<h2 id="指标建设">指标建设</h2>
-<h1 id="数据提取处理">数据提取处理</h1>
-<h2 id="熟练掌握sqlhivesql">熟练掌握SQL/hiveSQL</h2>
-<p>《SQL必知必会》<br>
-SQL 50题https://www.bilibili.com/video/av55971363?from=search&amp;seid=2169757328561365024</p>
-<h2 id="python清洗数据">Python清洗数据</h2>
-<h1 id="数据汇总呈现">数据汇总呈现</h1>
-<h2 id="excel函数透视图表">Excel函数，透视图表</h2>
-<h2 id="python绘图包">Python绘图包</h2>
-<h1 id="数据分析">数据分析</h1>
-<h2 id="方法论">方法论</h2>
 ]]></content>
     </entry>
 </feed>
