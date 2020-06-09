@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-05-15T06:24:57.601Z</updated>
+    <updated>2020-06-09T05:05:05.486Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -143,21 +143,22 @@ P&gt;α 接受原假设H0</li>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[贝壳_数据分析暑期实习一面]]></title>
+        <title type="html"><![CDATA[贝壳_数据分析暑期实习一面过，二面凉]]></title>
         <id>https://luyu10.github.io/post/bei-ke-_-shu-ju-fen-xi-shu-qi-shi-xi-yi-mian/</id>
         <link href="https://luyu10.github.io/post/bei-ke-_-shu-ju-fen-xi-shu-qi-shi-xi-yi-mian/">
         </link>
         <updated>2020-05-10T01:46:11.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="简历相关">简历相关</h1>
-<h2 id="美团实习">美团实习</h2>
-<h3 id="构建的关于用户生命周期运营指标中选出top3指标">构建的关于用户生命周期运营指标中，选出TOP3指标</h3>
+        <content type="html"><![CDATA[<h1 id="一面">一面</h1>
+<h2 id="简历相关">简历相关</h2>
+<h3 id="美团实习">美团实习</h3>
+<h4 id="构建的关于用户生命周期运营指标中选出top3指标">构建的关于用户生命周期运营指标中，选出TOP3指标</h4>
 <figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589076369485.PNG" alt="" loading="lazy"></figure>
 <ul>
 <li>人均支付间夜</li>
 <li>新增用户数</li>
 <li>留存用户数</li>
 </ul>
-<h3 id="出用户特征分析的结论是什么运营人员如何使用结论是否跟进了">出用户特征分析的结论是什么？运营人员如何使用结论？是否跟进了？</h3>
+<h4 id="出用户特征分析的结论是什么运营人员如何使用结论是否跟进了">出用户特征分析的结论是什么？运营人员如何使用结论？是否跟进了？</h4>
 <p>结论及使用</p>
 <ul>
 <li>基础属性分布情况
@@ -167,28 +168,34 @@ P&gt;α 接受原假设H0</li>
 </ol>
 </li>
 <li>行为特征N转N+1<br>
-学生群体的转化情况最好，活跃用户比例最高，下次支付转化周期最长，可放缓学生群体的粗活周期；<br>
+学生群体的转化情况最好，活跃用户比例最高，下次支付转化周期最长，可放缓学生群体的促活周期；<br>
 学生浏览后下单的时间最短，浏览后要尽快促活</li>
 <li>流失召回<br>
 召回比例中，高频用户召回比例最高，优先召回高频用户</li>
 </ul>
-<h3 id="实习中遇到的困难是什么你又是如何克服的">实习中遇到的困难是什么?你又是如何克服的？</h3>
+<h4 id="实习中遇到的困难是什么你又是如何克服的">实习中遇到的困难是什么?你又是如何克服的？</h4>
 <ul>
 <li>困难<br>
 刚开始没有部分数据权限，各种表的字段含义也不清楚，sql写不出来</li>
 <li>克服方法<br>
 一点一点的问，沟通，然后做笔记，才把一些指标搞清楚，写出sql</li>
 </ul>
-<h2 id="滴滴项目">滴滴项目</h2>
+<h3 id="滴滴项目">滴滴项目</h3>
 <ol>
 <li>这个项目是在实习的时候做的吗<br>
 不是，是在一个集训营做的，类似于网上的产品实训课程，不过是滴滴的产品经历带着做的，最终也经过了评审</li>
 </ol>
-<h1 id="简历之外">简历之外</h1>
+<h2 id="简历之外">简历之外</h2>
 <ol>
 <li>如果你的朋友用两个词评价你，会是哪两个词？</li>
 <li>自己的职业规划？</li>
 </ol>
+<h1 id="二面">二面</h1>
+<p>面试官建议：</p>
+<ul>
+<li>增强数据分析结果的应用性</li>
+<li>表达沟通方面要加强结果导向</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
@@ -328,26 +335,6 @@ P&gt;α 接受原假设H0</li>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[数据分析知识库]]></title>
-        <id>https://luyu10.github.io/post/shu-ju-fen-xi-zhi-shi-ku/</id>
-        <link href="https://luyu10.github.io/post/shu-ju-fen-xi-zhi-shi-ku/">
-        </link>
-        <updated>2020-04-30T14:09:10.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="概率基础">概率基础</h1>
-<h1 id="统计基础">统计基础</h1>
-<h2 id="假设检验">假设检验</h2>
-<h1 id="sql">SQL</h1>
-<h2 id="窗口函数">窗口函数</h2>
-<h1 id="excel">Excel</h1>
-<h2 id="基本函数">基本函数</h2>
-<h1 id="python">Python</h1>
-<h1 id="机器学习算法">机器学习算法</h1>
-<h2 id="聚类分析">聚类分析</h2>
-<h1 id="分析方法">分析方法</h1>
-<h2 id="对比分析">对比分析</h2>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[测评]]></title>
         <id>https://luyu10.github.io/post/ce-ping/</id>
         <link href="https://luyu10.github.io/post/ce-ping/">
@@ -472,6 +459,27 @@ P&gt;α 接受原假设H0</li>
         </link>
         <updated>2020-04-24T04:39:09.000Z</updated>
         <content type="html"><![CDATA[<p>#如何提高自己的逻辑思维能力</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何用数据解决实际问题]]></title>
+        <id>https://luyu10.github.io/post/ru-he-yong-shu-ju-jie-jue-shi-ji-wen-ti/</id>
+        <link href="https://luyu10.github.io/post/ru-he-yong-shu-ju-jie-jue-shi-ji-wen-ti/">
+        </link>
+        <updated>2020-04-22T10:03:37.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="解决问题你需要流程">解决问题，你需要“流程”</h1>
+<h2 id="第一个重点是划定范围">第一个重点是“划定范围”</h2>
+<p>确定解决业务问题流程中数据的范围</p>
+<h2 id="从锁定原因到研究对策">从锁定原因到研究对策</h2>
+<h2 id="开始之前的准备工作">开始之前的准备工作</h2>
+<p><img src="https://luyu10.github.io/post-images/1587550541994.PNG" alt="" loading="lazy"><br>
+抱着“先从容易收集的数据开始统计”的想法进行分析是错误的；要从明确目的或问题着手</p>
+<h2 id="数据分析需要假设">数据分析需要假设</h2>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587550864899.PNG" alt="" loading="lazy"></figure>
+<ol>
+<li>锁定问题的关键：WHAT型假设</li>
+<li>锁定原因：WHY型假设</li>
+</ol>
 ]]></content>
     </entry>
 </feed>
