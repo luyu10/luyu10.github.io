@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-06-09T05:05:30.837Z</updated>
+    <updated>2020-06-10T03:01:19.856Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[Excel]]></title>
+        <id>https://luyu10.github.io/post/excel/</id>
+        <link href="https://luyu10.github.io/post/excel/">
+        </link>
+        <updated>2020-06-10T03:00:36.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="快捷键">快捷键</h1>
+<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1591758074166.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[面经收集_数据分析]]></title>
         <id>https://luyu10.github.io/post/mian-jing-ji-he-_-shu-ju-fen-xi/</id>
@@ -459,27 +469,6 @@ P&gt;α 接受原假设H0</li>
         </link>
         <updated>2020-04-24T04:39:09.000Z</updated>
         <content type="html"><![CDATA[<p>#如何提高自己的逻辑思维能力</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何用数据解决实际问题]]></title>
-        <id>https://luyu10.github.io/post/ru-he-yong-shu-ju-jie-jue-shi-ji-wen-ti/</id>
-        <link href="https://luyu10.github.io/post/ru-he-yong-shu-ju-jie-jue-shi-ji-wen-ti/">
-        </link>
-        <updated>2020-04-22T10:03:37.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="解决问题你需要流程">解决问题，你需要“流程”</h1>
-<h2 id="第一个重点是划定范围">第一个重点是“划定范围”</h2>
-<p>确定解决业务问题流程中数据的范围</p>
-<h2 id="从锁定原因到研究对策">从锁定原因到研究对策</h2>
-<h2 id="开始之前的准备工作">开始之前的准备工作</h2>
-<p><img src="https://luyu10.github.io/post-images/1587550541994.PNG" alt="" loading="lazy"><br>
-抱着“先从容易收集的数据开始统计”的想法进行分析是错误的；要从明确目的或问题着手</p>
-<h2 id="数据分析需要假设">数据分析需要假设</h2>
-<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1587550864899.PNG" alt="" loading="lazy"></figure>
-<ol>
-<li>锁定问题的关键：WHAT型假设</li>
-<li>锁定原因：WHY型假设</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
