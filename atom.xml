@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-06-10T03:01:41.145Z</updated>
+    <updated>2020-06-12T06:27:51.523Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -18,6 +18,10 @@
         <updated>2020-06-10T03:00:36.000Z</updated>
         <content type="html"><![CDATA[<h1 id="快捷键">快捷键</h1>
 <figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1591758074166.jpg" alt="" loading="lazy"></figure>
+<h1 id="数据透视表">数据透视表</h1>
+<ul>
+<li>均值的和并不等于和的均值；使用数据透视表有需要计算的字段不要在源数据中进行计算，可在创建数据透视表后使用【计算字段】</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
