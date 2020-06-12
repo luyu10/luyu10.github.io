@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-06-12T06:36:50.026Z</updated>
+    <updated>2020-06-12T10:36:27.371Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -26,8 +26,11 @@
 <p>对信号表现的量化</p>
 <h1 id="体系搭建">体系搭建</h1>
 <h2 id="结构化">结构化</h2>
+<p>将目标指标进行结构化（公式化）拆分，生成新的基本指标</p>
 <h2 id="业务流程化">业务流程化</h2>
+<p>根据用户使用产品的整个流程，梳理各个流程涉及的指标</p>
 <h2 id="场景化">场景化</h2>
+<p>根据用户的使用场景进行划分，进行指标体系设计</p>
 ]]></content>
     </entry>
     <entry>
