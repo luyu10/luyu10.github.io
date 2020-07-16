@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-07-15T13:28:59.707Z</updated>
+    <updated>2020-07-16T11:38:31.996Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -48,6 +48,12 @@
 <li>利用虹口区小区与垃圾中转站数据集将虹口区进行网格划分，在垃圾桶安装物联网监测仪对垃圾桶载量实时监控；垃圾清运车端有小程序对清运路线规划，控制中心端大屏实时显示垃圾数据以及清运车路线以进行路线规划以及预警处的紧急处理调度；数据处理方面首先对大赛提供数据使用Pandas进行清洗，调用百度地图API得到经纬度数据以及路线路况、距离、预计时间数据通过加权求和得到每条路线的适应度作为遗传算法的参数对垃圾清运车进行路线规划。所得数据最终通过DataV进行数据可视化处理加以呈现</li>
 <li>比赛项目在决赛评选中获得全国二等奖，在所有参赛作品中总排名为第7名</li>
 </ol>
+<h3 id="职责">职责</h3>
+<ul>
+<li>前期参与整个方案的构思、讨论</li>
+<li>负责相关数据的清洗、整理</li>
+<li>协助路径规划算法的设计、优化</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
