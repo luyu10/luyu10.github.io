@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2020-07-16T11:38:31.996Z</updated>
+    <updated>2020-08-02T14:57:03.068Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[2021秋招]]></title>
+        <id>https://luyu10.github.io/post/2021-qiu-zhao/</id>
+        <link href="https://luyu10.github.io/post/2021-qiu-zhao/">
+        </link>
+        <updated>2020-07-31T08:17:47.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="岗位">岗位</h1>
+<ul>
+<li>目标岗位：数据（商业）分析</li>
+<li>备选岗位：数据产品、数据运营</li>
+</ul>
+<h1 id="笔试">笔试</h1>
+<h2 id="行测">行测</h2>
+<p>刷例题，做真题</p>
+<h3 id="图形推理">图形推理</h3>
+<h3 id="数字推理">数字推理</h3>
+<h2 id="编程">编程</h2>
+<h3 id="sql">SQL</h3>
+<h3 id="数据结构">数据结构</h3>
+<h2 id="业务">业务</h2>
+<h2 id="统计">统计</h2>
+<h3 id="假设检验">假设检验</h3>
+<p>#面试</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[简历_数据分析]]></title>
         <id>https://luyu10.github.io/post/jian-li-_-shu-ju-fen-xi/</id>
@@ -316,117 +341,6 @@ P&gt;α 接受原假设H0</li>
 <ul>
 <li>增强数据分析结果的应用性</li>
 <li>表达沟通方面要加强结果导向</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL]]></title>
-        <id>https://luyu10.github.io/post/sql/</id>
-        <link href="https://luyu10.github.io/post/sql/">
-        </link>
-        <updated>2020-05-10T00:36:36.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="select-from">SELECT FROM</h1>
-<ul>
-<li>DISTINCT 去重</li>
-<li>CASE WHEN END 给数据分组打标签</li>
-<li>窗口函数</li>
-</ul>
-<h1 id="where">WHERE</h1>
-<ul>
-<li>&lt;=&gt; between</li>
-<li>(not)in</li>
-<li>and or(and优先于or执行)</li>
-<li>like（%匹配字符%）</li>
-</ul>
-<h1 id="order-by">ORDER BY</h1>
-<ul>
-<li>默认升序ASC</li>
-<li>降序关键字DESC</li>
-</ul>
-<h1 id="group-by">GROUP BY</h1>
-<ul>
-<li>聚合函数
-<ul>
-<li>COUNT()</li>
-<li>SUM()</li>
-<li>AVG()</li>
-<li>MAX()</li>
-<li>MIN()</li>
-</ul>
-</li>
-<li>分组前过滤用WHERE，分组后过滤用HAVING</li>
-</ul>
-<h1 id="函数">函数</h1>
-<h2 id="字符串">字符串</h2>
-<ul>
-<li>LEFT()</li>
-<li>LOCATE()</li>
-<li>LENGTH()</li>
-<li>SUBSTR()</li>
-</ul>
-<h2 id="时间">时间</h2>
-<ul>
-<li>DATEDIFF()</li>
-<li>DATE_SUB()</li>
-<li>DATEFORMATE()</li>
-</ul>
-<h1 id="row_number-over-partition-by-order-by">ROW_NUMBER() OVER (PARTITION BY   ORDER BY   )</h1>
-<h2 id="目的">目的</h2>
-<p>分组后返回多行，可进行组内排序等操作</p>
-<h2 id="窗口函数">窗口函数</h2>
-<h3 id="聚合函数">聚合函数</h3>
-<p>SUM();COUNT();AVG();MIN();MAX()<br>
-默认聚合第一行到当前行累计的值<br>
-对ROWS操作：</p>
-<ul>
-<li>n PRECEDING 向前n行</li>
-<li>n FOLLOWING 向后n行</li>
-<li>CURRENT ROW 当前行<br>
-<img src="https://luyu10.github.io/post-images/1589074741044.PNG" alt="" loading="lazy"></li>
-</ul>
-<h3 id="组内排名">组内排名</h3>
-<ul>
-<li>ROW_NUMBER() 忽略重复值</li>
-<li>RANK() 重复值累计</li>
-<li>DENSE_RANK() 重复值不累计<br>
-<img src="https://luyu10.github.io/post-images/1589168868577.png" alt="" loading="lazy"></li>
-</ul>
-<h3 id="返回组内某一行的值">返回组内某一行的值</h3>
-<ul>
-<li>
-<p>FIRST_VALUE()<br>
-返回窗口内第一行的值</p>
-</li>
-<li>
-<p>LAST_VALUE()<br>
-返回窗口内最后一行的值</p>
-</li>
-<li>
-<p>LAG(A,n,null)<br>
-返回A列当前行之前第n行的值，若不存在则返回null</p>
-</li>
-<li>
-<p>LEAD(A,n,null)<br>
-返回A列当前行之后的第n行的值，若不存在则返回null</p>
-<h1 id="sql执行顺序">SQL执行顺序</h1>
-<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589255891655.jpg" alt="" loading="lazy"></figure>
-<ol>
-<li>FROM+JOIN<br>
-首先把表准备好</li>
-<li>WHERE<br>
-初步过滤</li>
-<li>GROUP BY<br>
-分组</li>
-<li>HAVING<br>
-分组后过滤</li>
-<li>SELECT<br>
-把要查的内容找到</li>
-<li>ORDER BY<br>
-按顺序排列已查到内容</li>
-<li>LIMIT<br>
-截取需要的内容</li>
-</ol>
-</li>
 </ul>
 ]]></content>
     </entry>
