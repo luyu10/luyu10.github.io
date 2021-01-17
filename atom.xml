@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luyu10.github.io</id>
     <title>LY</title>
-    <updated>2021-01-03T08:29:51.838Z</updated>
+    <updated>2021-01-17T16:10:50.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luyu10.github.io"/>
     <link rel="self" href="https://luyu10.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://luyu10.github.io/images/avatar.png</logo>
     <icon>https://luyu10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, LY</rights>
+    <entry>
+        <title type="html"><![CDATA[2021年1月]]></title>
+        <id>https://luyu10.github.io/post/2020-nian-1-yue/</id>
+        <link href="https://luyu10.github.io/post/2020-nian-1-yue/">
+        </link>
+        <updated>2021-01-04T15:05:25.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="14">1.4</h1>
+<p>今天是2021年第一天工作日，但是感觉工作不在状态，整个人精神萎靡，主要原因就是周末作息太恶劣了。今天主要做的就是收拾了上周的一些烂摊子，但是也暴露出一些问题，操作excel表格磨磨唧唧，效率低下。明天要保证有更好的状态，今天就一定不能熬夜！！！下班溜的倒是挺快，但是还是没有想好回来干什么，如何有效的利用好下班后的两个小时，我觉得这些应该在地铁上就想明白，比如说看哪一本书，学那些技能，完善简历还是准备论文，这些事情都应该准备准备了；早点睡觉，如果睡不着的话就听冥想</p>
+<h1 id="113">1.13</h1>
+<p>今天终于肯迈出一步主动去跟leader去沟通了，也是知道了最近两个月自己的一些问题，还是老问题缺乏思考，主动去发现问题并提出优化建议，做的主要都是替代性很强的工作；如何去优化呢？在做实验的时候思考这个实验预期体高的指标是什么，他在整个产品的定位是什么 ，结果指标异常的时候如何去排查；不要固化自己的思维，多去想为什么，有一颗好奇的心；最近在读的《认知觉醒：开启自我改变的原动力》感觉真的不错，比如原始脑、情绪闹、理智脑的概念，当要做坏事的时候让理智脑需要站出来和情绪闹进行合理沟通；要在拉伸区进行提升，在舒适区的边缘不断触动自己，日拱一卒；养成复盘的好习惯，反思才会成长</p>
+<h1 id="117">1.17</h1>
+<p>触动点：由于下周就要用自己windows了，这次并没有把电脑重置，之前每次都是为了拥有更多的空间，嫌弃之前的电脑内容太乱而选择重置，总是认为自己重新装了之后就能把自己的文件整理的井然有序，实时却并不是这样，重置后每次依然是文件乱放；这次的做法就是把不该要的东西给逐渐清除，是电脑变得更加有序，也给自己定了规则比如下载的东西都放在同一个文件夹、文件起名都要有一定规范、每天工作结束清理下载的临时文件；<br>
+感悟：其实就像人要每次想要改变一样，总是想重头再来，但是哪有重头再来这回事，只能从现在开始把之前坏的一些东西逐渐清除，并放一些好的东西进来，最近读的一本书对自己影响挺大的，每天就是要多去复盘反思并记录下来，学习的东西也要记录下来，形成自己的知识体系库，经常温习，才能有所进步！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021展望]]></title>
         <id>https://luyu10.github.io/post/2021-zhan-wang/</id>
@@ -340,32 +355,6 @@ R:  触发持仓推送的用户较少，实验组指标无显著差异，需要�
 后端服务和算法更新</li>
 <li>漏斗转化来看是哪个环节出现了问题</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[假设检验与ABtesting]]></title>
-        <id>https://luyu10.github.io/post/jia-she-jian-yan-yu-abtesting/</id>
-        <link href="https://luyu10.github.io/post/jia-she-jian-yan-yu-abtesting/">
-        </link>
-        <updated>2020-05-11T04:15:11.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="假设检验">假设检验</h1>
-<h2 id="假设检验的流程">假设检验的流程</h2>
-<figure data-type="image" tabindex="1"><img src="https://luyu10.github.io/post-images/1589293031842.PNG" alt="" loading="lazy"></figure>
-<ol>
-<li>问题是什么<br>
-备择假设H1（你希望得到的结果）<br>
-原假设H0</li>
-<li>证据是什么<br>
-原假设成立的情况下计算P值</li>
-<li>判断标准是什么<br>
-显著水平α</li>
-<li>得出结论<br>
-P&lt;=α 小概率事件，拒绝原假设H0，备择假设H1成立<br>
-P&gt;α 接受原假设H0</li>
-</ol>
-<h1 id="abtesting">ABtesting</h1>
-<h2 id="ab流程">AB流程</h2>
-<figure data-type="image" tabindex="2"><img src="https://luyu10.github.io/post-images/1589293729694.PNG" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
